@@ -1,4 +1,39 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+// Variables
+$color-theme: #08c;
+$color-white: #fff;
+$color-black: #000;
+$color-inputBackground: #f4f4f4;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 17px;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+ul {
+  list-style-type: none;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.mat-body p, .mat-body-2 p, .mat-typography .mat-body p, .mat-typography .mat-body-2 p, .mat-typography p{
+  margin: 0 !important;
+}

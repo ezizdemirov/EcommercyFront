@@ -1,0 +1,189 @@
+// Variables
+$color-theme: #08c;
+$color-white: #fff;
+$color-black: #000;
+$color-inputBackground: #f4f4f4;
+
+// Header
+header {
+  .header-top {
+    background-color: $color-theme;
+    p {
+      font-size: 0.8rem;
+
+      &:last-child {
+        opacity: 0.5;
+      }
+    }
+    .gender {
+      a {
+        color: $color-white;
+        font-size: 0.7rem;
+        background-color: #0075af;
+        padding: 4px 8px;
+        margin-left: 10px;
+      }
+      p {
+        margin-left: 10px;
+      }
+    }
+  }
+  .header-one-part {
+    div {
+      font-size: 0.72rem;
+
+      .header-right {
+        .header-dropdowns {
+          border-right: 1px solid #d3d3d3;
+          padding-right: 15px;
+          ul {
+            li {
+              a {
+                color: #777;
+                margin: 0px 10px;
+              }
+            }
+          }
+        }
+        .flag-section {
+          margin: 0px 30px;
+        }
+        .currency-section {
+          margin-right: 15px;
+        }
+        .social-section {
+          border-left: 1px solid #d3d3d3;
+          padding-left: 15px;
+          a {
+            color: #757575;
+            margin-right: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  .header-two-part {
+    .logo-part {
+      .menu-icon {
+        margin-right: 10px;
+        display: none;
+
+        button.navbar-toggler {
+          font-size: 17px;
+          border: none;
+
+          &:focus-visible {
+            outline: none;
+          }
+          &:focus {
+            box-shadow: none;
+          }
+        }
+      }
+    }
+    .search-part {
+      width: 50%;
+      div.input-group {
+        flex-wrap: nowrap;
+        input {
+          width: 100%;
+          border: none;
+          background-color: #f4f4f4;
+          padding: 10px 20px;
+          font-size: 14px;
+          border-top-left-radius: 20px;
+          border-bottom-left-radius: 20px;
+          margin-right: 3px;
+
+          &:focus-visible {
+            outline: none;
+          }
+        }
+        button.dropdown-toggle {
+          background-color: $color-inputBackground;
+          border: none;
+          padding: 10px 20px;
+          color: #a1a1a1;
+          font-size: 14px;
+        }
+
+        .fa-magnifying-glass {
+          background-color: #f4f4f4;
+          padding: 12px 10px;
+          border-top-right-radius: 20px !important;
+          border-bottom-right-radius: 20px !important;
+          margin-left: 2px !important;
+
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .end-part {
+      .tel-part {
+        .tel-number {
+          p {
+            &:first-child {
+              font-size: 0.73rem;
+            }
+            &:last-child {
+              font-size: 1rem;
+
+              &:hover {
+                child:hover {
+                  cursor: pointer;
+                }
+              }
+            }
+          }
+        }
+      }
+      .icon-part {
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .header-nav-part {
+    display: block;
+    margin: 20px 0px;
+
+    .left-part {
+      ul {
+        li {
+          margin-right: 30px;
+          a {
+            color: #555;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 0.88rem;
+            padding-top: 15px;
+            border-top: 2px solid transparent;
+            transition: all 0.3s;
+
+            &:hover {
+              color: $color-theme;
+              border-top: 2px solid $color-theme;
+            }
+          }
+        }
+      }
+    }
+    .right-part {
+      a {
+        font-size: 0.88rem;
+        color: #555;
+        font-weight: 600;
+        transition: all 0.3s;
+
+        &:hover {
+          color: $color-theme;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+footer {
+  .col-md-3 {
+    &:nth-child(2) {
+      a {
+        color: #a8a8a8;
+      }
+    }
+
+    &:nth-child(3) {
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0;
+        gap: 10px;
+        font-size: 0.9rem;
+
+        li {
+          a {
+            color: #a8a8a8;
+            border: 1px solid #515151;
+            padding: 0px 5px;
+          }
+        }
+      }
+    }
+
+    &:last-child input {
+      background-color: #292c30;
+      border-radius: 15px;
+      border: none;
+      padding: 10px 20px;
+      width: 100%;
+      outline: none;
+    }
+  }
+}

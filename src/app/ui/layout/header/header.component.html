@@ -1,1 +1,188 @@
-<p>header works!</p>
+<header>
+  <div class="header-top py-2">
+    <div
+      class="container-md d-flex justify-content-center align-items-center"
+    >
+      <p class="text-white">Get Up to <b>40% OFF</b> New-Season Styles</p>
+      <div class="gender d-flex align-items-center">
+        <a href="#">MEN</a>
+        <a href="#">WOMEN</a>
+        <p class="text-white">* Limited time only.</p>
+      </div>
+    </div>
+  </div>
+  <div class="header-one-part mt-2">
+    <div
+      class="container-md d-flex justify-content-between align-items-center"
+    >
+      <div class="header-left d-none d-sm-block">
+        <p class="text-uppercase">
+          FREE Returns. Standard Shipping Orders $99+
+        </p>
+      </div>
+      <div class="header-right d-flex align-items-center">
+        <div class="header-dropdowns ml-0 ml-sm-auto w-sm-100">
+          <div
+            class="header-dropdown dropdown-expanded d-none d-lg-block d-flex align-items-center"
+          >
+            <ul class="d-flex align-items-center">
+              <li><a href="">My Account</a></li>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">My Wishlist</a></li>
+              <li><a href="">Cart</a></li>
+              <li><a href="">Log In</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="select d-flex">
+          <div class="flag-section">
+            <select>
+              <option>ENG</option>
+              <option>FRA</option>
+            </select>
+          </div>
+          <div class="currency-section">
+            <select>
+              <option>EUR</option>
+              <option>USD</option>
+            </select>
+          </div>
+        </div>
+        <div class="social-section">
+          <a href="">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr />
+  <div class="header-two-part navbar">
+    <div
+      class="container-md d-flex justify-content-between align-items-center"
+    >
+      <div class="logo-part">
+        <a href="#" class="menu-icon">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </a>
+        <div
+          class="offcanvas offcanvas-start text-bg-dark"
+          tabindex="-1"
+          id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"></h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body"></div>
+        </div>
+        <a href="">
+          <img src="../../../../assets/images/common/logo.png" alt="" />
+        </a>
+      </div>
+      <div class="search-part">
+        <div
+          class="input-group align-items-center justify-content-center w-100"
+        >
+          <input
+            type="search"
+            placeholder="Search..."
+            aria-label="Text input with dropdown button"
+          />
+          <button
+            class="dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            All Categories
+            <i class="fa-solid fa-angle-bottom"></i>
+          </button>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li><a class="dropdown-item" href="#">Separated link</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="end-part d-flex align-items-center">
+        <div class="tel-part d-flex align-items-center">
+          <i class="fa-solid fa-phone fs-3 me-3 text-secondary"></i>
+          <div class="tel-number me-5">
+            <p>CALL US NOW</p>
+            <p class="fw-bold">+123 5678 890</p>
+          </div>
+        </div>
+        <div class="icon-part d-flex align-items-center">
+          <i class="fa-regular fa-user fs-3 me-4"></i>
+          <i class="fa-regular fa-heart fs-3 me-4"></i>
+          <div class="store-icon">
+            <button type="button" class="btn position-relative">
+              <i class="fa-solid fa-bag-shopping fs-3 text-secondary"></i>
+              <span
+                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+              >
+                3+
+                <span class="visually-hidden">unread messages</span>
+              </span>
+            </button>
+            <i class="fa-solid fa-angle-left ms-2"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header-nav-part">
+    <div class="container-md">
+      <hr />
+      <div class="row">
+        <div class="col-md-8">
+          <div class="left-part">
+            <ul class="d-flex align-items-center">
+              <li><a href="">Home</a></li>
+              <li><a routerLink="basket">Baskets</a></li>
+              <li><a routerLink="products">Products</a></li>
+              <li><a href="">Pages</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Elements</a></li>
+              <li><a href="">Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="right-part d-flex justify-content-end">
+            <a class="me-5" href="">SPECIAL OFFER!</a>
+            <a href="">BUY PORTO!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
