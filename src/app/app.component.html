@@ -3,10 +3,10 @@
 <!-- Footer -->
 <div *ngIf="dt">
   <app-header></app-header>
-  <router-outlet></router-outlet>
+  <router-outlet ></router-outlet>
   <app-footer></app-footer>
 </div>
 
-<h1 *ngIf="!dt">
+<div *ngIf="!dt">
   <app-layout></app-layout>
-</h1>
+</div>
