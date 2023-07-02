@@ -1,16 +1,39 @@
-// Main
-main {
-  #carouselHome1 {
-    &:hover {
-      svg {
-        opacity: 1;
-      }
-    }
+#carouselHome1 {
+  &:hover {
     svg {
-      opacity: 0;
-      transition: all 0.2s;
+      opacity: 1;
     }
   }
+  svg {
+    opacity: 0;
+    transition: all 0.2s;
+  }
+}
 
+.section-1 {
+  .bottom {
+    #carouselHome3 {
+      .item {
+        position: relative;
+        img{
+          height: 200px;
+          }
+        a {
+          position: absolute;
+          left: 20px;
+          bottom: 15px;
+          font-size: 12px;
+          background-color: #000;
+          color: #fff;
+          padding: 5px 10px;
+          border-radius: 3px;
+          transition: all 0.25s;
 
+          &:hover{
+            background-color: #272727;
+            }
+        }
+      }
+    }
+  }
 }
