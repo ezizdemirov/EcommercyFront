@@ -1,6 +1,6 @@
 // Main
 main {
-  #carousel1 {
+  #carouselHome1 {
     &:hover {
       svg {
         opacity: 1;
@@ -11,4 +11,6 @@ main {
       transition: all 0.2s;
     }
   }
+
+
 }
