@@ -15,9 +15,9 @@
     #carouselHome3 {
       .item {
         position: relative;
-        img{
+        img {
           height: 200px;
-          }
+        }
         a {
           position: absolute;
           left: 20px;
@@ -29,11 +29,122 @@
           border-radius: 3px;
           transition: all 0.25s;
 
-          &:hover{
+          &:hover {
             background-color: #272727;
-            }
+          }
         }
       }
+    }
+  }
+}
+
+.section-3,
+.section-4 {
+  background-color: #f9f9f9;
+  .s3-header {
+    h2 {
+      font-size: 1.1rem;
+    }
+    &::before,
+    &::after {
+      content: "";
+      display: block;
+      margin: 0 1.5rem;
+      margin-top: 2px;
+      margin: 0 8px;
+      flex: 1;
+      height: 0;
+      border-top: 1px solid rgb(94 94 94 / 15%);
+    }
+  }
+
+  .s3-main {
+    #carouselHome4,
+    #carouselHome5 {
+      .item {
+        position: relative;
+        flex-direction: column;
+        transition: all 0.5s;
+
+        &:hover {
+          cursor: pointer;
+        }
+
+        .absolute-text {
+          position: absolute;
+          top: 10px;
+          left: 15px;
+
+          .hot {
+            background-color: #2ba968;
+          }
+
+          .discount {
+            background-color: #da5555;
+          }
+
+          .hot,
+          .discount {
+            color: #fff;
+            padding: 2px 10px;
+            text-align: center;
+            font-size: 0.6rem;
+            border-radius: 20px;
+            display: block;
+          }
+        }
+
+        .text-part {
+          text-align: center;
+          .category,
+          .category-description {
+            display: block;
+          }
+          .category {
+            font-size: 11px;
+            margin-top: 15px;
+          }
+          .rating-stars {
+            width: fit-content;
+            margin: auto;
+
+            svg {
+              font-size: 12px;
+              color: grey;
+            }
+          }
+
+          .addToCart {
+            a {
+              font-size: 12px;
+              color: #6f6e6b;
+              background-color: #efefef;
+              padding: 8px 15px;
+              font-weight: 600;
+              border-radius: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.section-4 {
+  background-color: #fff;
+}
+
+.section-5 {
+  background-color: #f6f7f9;
+  .iconradius {
+    width: 76px;
+    height: 76px;
+    border: 1px solid lightgray;
+    border-radius: 40px;
+    font-size: 2.5rem;
+    svg {
+      color: #4d8eff;
+      font-size: 2.5rem;
     }
   }
 }
